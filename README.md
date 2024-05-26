@@ -1,79 +1,51 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Blinkit Clone App
 
-# Getting Started
+A cross-platform clone of Blinkit, India's leading hyper-local delivery service, developed using React Native, TypeScript, and Redux.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Description
 
-## Step 1: Start the Metro Server
+Blinkit Clone App enables users to browse and order groceries, fruits, vegetables, and daily essentials. Users can add products to their cart, proceed to checkout, place orders, and view their order history and details.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Features
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Browse Products:** View all available products in various categories.
+- **Add to Cart:** Add selected products to the cart.
+- **Checkout:** Securely proceed to checkout and place orders.
+- **Order History:** View previous orders and their details.
+- **Responsive Design:** Enjoy a seamless experience on both Android and iOS devices.
 
-```bash
-# using npm
-npm start
+- ## Technologies Used
 
-# OR using Yarn
-yarn start
-```
+- **Frontend**: React Native, TypeScript
+- **State Management**: Redux
+- **Backend**: Django Rest Framework
+- **Database**: PostgreSQL
 
-## Step 2: Start your Application
+## Screenshots
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<img src="https://github.com/manansood60/blinkit_clone/assets/27049693/7765b054-0a18-48dd-a504-9cd2adc63313" alt="Home Screen" width="200">
 
-### For Android
+*Home Screen*
 
-```bash
-# using npm
-npm run android
+<img src="https://github.com/manansood60/blinkit_clone/assets/27049693/7ff0ee6d-2a2e-488a-bb50-32ffb58a3313" alt="Product List" width="200">
 
-# OR using Yarn
-yarn android
-```
+*Product List*
 
-### For iOS
+<img src="https://github.com/manansood60/blinkit_clone/assets/27049693/b35a7ad2-1081-4679-b07d-c701e70d3488" alt="Cart" width="200">
 
-```bash
-# using npm
-npm run ios
+*Cart*
 
-# OR using Yarn
-yarn ios
-```
+<img src="https://github.com/manansood60/blinkit_clone/assets/27049693/e4007152-a146-4934-b338-bbbc20848ead" alt="Order History" width="200">
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+*Order History*
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<img src="https://github.com/manansood60/blinkit_clone/assets/27049693/db5429e8-18be-4093-ba72-1a67125c3e44" alt="Order Detail" width="200">
 
-## Step 3: Modifying your App
+*Order Detail*
 
-Now that you have successfully run the app, let's modify it.
+## Installation
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/manansood60/blinkit-clone.git
+   cd blinkit-clone-app
